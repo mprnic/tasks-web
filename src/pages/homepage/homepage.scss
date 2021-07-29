@@ -1,0 +1,32 @@
+.page {
+    .header-search {
+        margin: auto;
+        width: 300px;
+    }
+
+    .tasks {
+        display: flex;
+
+        .task-card {
+            width: 49%;
+
+            .description {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        
+            .buttons {
+                margin-top: 10px;
+        
+                button {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .load-more {
+        margin: auto;
+    }
+}
